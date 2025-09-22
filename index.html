@@ -12,6 +12,11 @@
     <link href="/css/chunk-vendors.3f35532e.css" rel="stylesheet">
     <link href="/css/app.948f4db4.css" rel="stylesheet">
     <style>
+        html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
         .mobile-wrapper {
   max-width: 375px;  /* iPhone width */
   margin: 0 auto;    /* center horizontally */
@@ -32,9 +37,9 @@
     </style>
 </head>
 
-<body><noscript><strong>We're sorry but dost doesn't work properly without JavaScript enabled. Please enable it to
+<body class="mobile-wrapper"><noscript><strong>We're sorry but dost doesn't work properly without JavaScript enabled. Please enable it to
             continue.</strong></noscript>
-    <div id="app" class="mobile-wrapper"></div>
+    <div id="app" ></div>
 </body>
 
 </html>
